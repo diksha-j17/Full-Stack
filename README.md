@@ -1,4 +1,3 @@
 # html basic
-Working repo
-These changes are done in README file.
-My first commit through terminal 
+This repo contains HTML, CSS codes from basic to advance level questions.
+It also has CSS animation codes also
