@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lb 6 Ques 4</title>
+</head>
+<script>
+    function myfun() {
+        let text = "Press the button to verify details";
+        if (confirm(text) == true) {
+            text = "Details verified by user !";
+        } else {
+            text = "Sorry! Not able to verify details";
+        }
+        document.getElementById("demo").innerHTML = text;
+    }
+</script>
+
+<body>
+    <h1>Submission of details and verification</h1>
+    <form>
+        <label for="fname">First Name</label><br>
+        <input type="text" id="fname" name="fname" value="Diksha"><br><br>
+        <label for="lname">Last Name</label><br>
+        <input type="text" id="lname" name="lname" value="Jakhmola"><br><br>
+    </form>
+    <button onclick="myfun()">Submit</button>
+    <p id="demo"></p>
+</body>
+
+</html>
